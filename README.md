@@ -1,162 +1,165 @@
-# jobaaj-learning-looker-studio-projects-GDS-App-Insights-Unlocked-A-Data-Analytics-Challenge
+# looker-studio-projects-GDS-App-Insights-Unlocked-A-Data-Analytics-Challenge
 This project analyzes Google Play Store app data to uncover patterns and trends that influence app success. The objective is to identify factors contributing to high ratings, installs, and user engagement.
 Dataset Source:
 Kaggle – Google Play Store Apps Dataset
+🎯 Problem Objectives
 
-🎯 Problem Statement
+Identify key factors that contribute to app success
+This involves analyzing ratings, installs, reviews, pricing, and updates to determine what makes an app perform well on the Play Store.
 
-As a data analyst in a tech company, the goal is to:
+Understand what drives high ratings and installs
+The goal is to discover patterns that influence user satisfaction and download behavior.
 
-Identify key success factors for apps
+Discover the most popular and high-performing categories
+This helps in identifying which app categories attract the highest engagement and installs.
 
-Analyze rating trends
+Analyze the impact of app size and pricing on user behavior
+This examines whether smaller apps or free apps perform better in terms of downloads and ratings.
 
-Discover high-performing categories
-
-Study impact of price and size
-
-Understand user behavior patterns
+Generate insights for data-driven decisions
+The analysis supports strategic planning in development, marketing, and monetization.
 
 👥 Stakeholders
-Internal:
+Internal Stakeholders
 
 App Developers
+Developers can use insights to improve app quality, features, and update frequency.
 
 Product Managers
+Product managers can prioritize features and categories based on performance trends.
 
 Marketing Team
+Marketing teams can design targeted campaigns based on user behavior insights.
 
 Senior Management
+Leadership can use findings for strategic investments and business expansion decisions.
 
-External:
+External Stakeholders
 
 App Users
+Users benefit from improved app quality and better user experience.
 
 Advertisers
+Advertisers can target high-performing categories for better ROI.
 
-Tech Partners
+Business/Tech Partners
+Partners can align collaborations with trending and high-demand app categories.
 
-🧹 Data Cleaning Process
+🧹 Data Cleaning & Preprocessing
 
-Removed missing ratings
+Handled missing values
+Missing ratings and inconsistent entries were cleaned to ensure accurate analysis.
 
-Converted:
+Converted Installs and Price into numeric format
+Text-based values like “1,000+” were converted into numerical form for proper calculations.
 
-Installs → numeric
+Standardized app size into MB
+Different size formats were unified into MB for consistency in analysis.
 
-Price → numeric
+Removed duplicate records
+Duplicate apps were eliminated to avoid misleading insights.
 
-Size → MB
+Standardized Category and Genre text fields
+Inconsistent naming formats were corrected to maintain uniformity.
 
-Removed duplicates
+Converted Last Updated into datetime format
+Date values were formatted properly to analyze update trends over time.
 
-Standardized Category & Genres
+📊 Metrics Developed
 
-Converted Last Updated → datetime
-
-📊 Key Metrics Developed
-
-⭐ Average Rating
-
-📥 Total Installs
-
-📝 Total Reviews
-
-💰 Revenue Potential (Paid Apps × Installs)
-
-📈 Category Performance Index
-
-📌 Key Insights
-🔥 1. High Ratings Correlate With:
-
-Frequent updates
-
-Lower app size
-
-Free pricing model
-
-High review engagement
-
-📂 2. Top Categories:
-
-GAME
-
-FAMILY
-
-TOOLS
-
-BUSINESS
-
-PRODUCTIVITY
-
-💰 3. Free vs Paid
-
-90%+ apps are free
-
-Free apps receive more installs & reviews
-
-Paid apps have slightly higher average rating
-
-📦 4. App Size Impact
-
-Medium-sized apps (10MB–40MB) perform best
-
-Very large apps have lower install rates
-
-📊 Looker Studio Dashboard Features
-
-KPI Cards:
-
-Total Apps
-
-Avg Rating
+Average Rating
+Measures overall user satisfaction across apps.
 
 Total Installs
+Indicates overall popularity and demand for apps.
 
-Free vs Paid %
+Total Reviews
+Reflects user engagement and feedback levels.
 
-Category Performance Chart
+Revenue Potential (Paid Apps × Installs)
+Estimates possible revenue generation from paid apps.
 
-Rating Distribution
+Category-wise Performance
+Compares how different categories perform based on installs and ratings.
 
-Installs vs Rating Scatter Plot
+🔎 Basic Analysis
 
-Content Rating Analysis
+Average app rating
+Helps understand the general satisfaction level of apps on the platform.
 
-App Size Impact Analysis
+Free vs Paid distribution
+Shows the market split between monetization models.
 
-📈 Advanced Analysis
+Most common content rating
+Identifies the primary target audience age group.
 
-Correlation Analysis (Rating vs Installs)
+Top installed apps
+Highlights the most successful apps in terms of downloads.
 
-Binned Install Analysis
+Category distribution
+Shows how apps are spread across different categories.
 
-Genre Performance Study
+🔎 Intermediate Analysis
 
-Update Frequency Trend
+Correlation between installs and ratings
+Examines whether more popular apps also have higher ratings.
 
-Price vs Rating Analysis
+Category-wise average rating
+Identifies which categories deliver better user satisfaction.
 
-🛠 Tools Used
+Price vs rating relationship
+Analyzes whether paid apps receive better ratings than free apps.
 
-Python (Pandas, Numpy, Matplotlib, Seaborn)
+App size vs installs
+Determines if smaller apps attract more downloads.
+
+Update frequency patterns
+Studies how regular updates influence app ratings and installs.
+
+🔎 Advanced Analysis
+
+Binned install vs rating analysis
+Groups apps by install ranges to observe rating trends across popularity levels.
+
+Genre-based performance trends
+Identifies which genres consistently perform well in terms of ratings and installs.
+
+Update trend over time
+Analyzes how frequently apps are updated across different years.
+
+High-rated apps benchmarking
+Studies top-rated apps to understand best practices.
+
+User engagement insights
+Evaluates review patterns to understand user behavior.
+
+🛠 Tools & Technologies Used
+
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+Used for data cleaning, analysis, and visualization.
 
 SQL
+Used for structured querying and data manipulation.
 
 Looker Studio
+Used to create interactive dashboards for business insights.
 
 Jupyter Notebook
+Used to document and execute the analysis step-by-step.
 
 GitHub
+Used for version control and project documentation.
 
-📌 Business Recommendations
+🎓 Learning Outcome
 
-Focus on Free + Ad-based revenue model
+Data Cleaning Skills
+Improved ability to handle raw and inconsistent datasets.
 
-Maintain app size under 40MB
+Analytical Thinking
+Developed the skill to connect data patterns with business impact.
 
-Regular monthly updates increase rating
+Visualization Expertise
+Learned how to present insights clearly through dashboards.
 
-Invest in GAME & FAMILY categories
-
-Encourage user reviews actively
+Strategic Recommendation Building
+Gained experience in converting analysis into actionable business decisions
