@@ -164,3 +164,5 @@ Learned how to present insights clearly through dashboards.
 
 Strategic Recommendation Building
 Gained experience in converting analysis into actionable business decisions
+
+project link : https://lookerstudio.google.com/reporting/d9c019d1-fe3d-4e0c-a645-4418880ef59d/page/pZjpF
