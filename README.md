@@ -2,6 +2,7 @@
 This project analyzes Google Play Store app data to uncover patterns and trends that influence app success. The objective is to identify factors contributing to high ratings, installs, and user engagement.
 Dataset Source:
 Kaggle – Google Play Store Apps Dataset
+
 🎯 Problem Objectives
 
 Identify key factors that contribute to app success
