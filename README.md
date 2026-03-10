@@ -3,7 +3,7 @@ This project analyzes Google Play Store app data to uncover patterns and trends 
 Dataset Source:
 Kaggle – Google Play Store Apps Dataset
 
-🎯 Problem Objectives
+ Problem Objectives
 
 Identify key factors that contribute to app success
 This involves analyzing ratings, installs, reviews, pricing, and updates to determine what makes an app perform well on the Play Store.
@@ -20,7 +20,7 @@ This examines whether smaller apps or free apps perform better in terms of downl
 Generate insights for data-driven decisions
 The analysis supports strategic planning in development, marketing, and monetization.
 
-👥 Stakeholders
+ Stakeholders
 Internal Stakeholders
 
 App Developers
@@ -46,7 +46,7 @@ Advertisers can target high-performing categories for better ROI.
 Business/Tech Partners
 Partners can align collaborations with trending and high-demand app categories.
 
-🧹 Data Cleaning & Preprocessing
+ Data Cleaning & Preprocessing
 
 Handled missing values
 Missing ratings and inconsistent entries were cleaned to ensure accurate analysis.
@@ -66,7 +66,7 @@ Inconsistent naming formats were corrected to maintain uniformity.
 Converted Last Updated into datetime format
 Date values were formatted properly to analyze update trends over time.
 
-📊 Metrics Developed
+ Metrics Developed
 
 Average Rating
 Measures overall user satisfaction across apps.
@@ -83,7 +83,7 @@ Estimates possible revenue generation from paid apps.
 Category-wise Performance
 Compares how different categories perform based on installs and ratings.
 
-🔎 Basic Analysis
+ Basic Analysis
 
 Average app rating
 Helps understand the general satisfaction level of apps on the platform.
@@ -100,7 +100,7 @@ Highlights the most successful apps in terms of downloads.
 Category distribution
 Shows how apps are spread across different categories.
 
-🔎 Intermediate Analysis
+ Intermediate Analysis
 
 Correlation between installs and ratings
 Examines whether more popular apps also have higher ratings.
@@ -117,7 +117,7 @@ Determines if smaller apps attract more downloads.
 Update frequency patterns
 Studies how regular updates influence app ratings and installs.
 
-🔎 Advanced Analysis
+ Advanced Analysis
 
 Binned install vs rating analysis
 Groups apps by install ranges to observe rating trends across popularity levels.
@@ -151,7 +151,7 @@ Used to document and execute the analysis step-by-step.
 GitHub
 Used for version control and project documentation.
 
-🎓 Learning Outcome
+ Learning Outcome
 
 Data Cleaning Skills
 Improved ability to handle raw and inconsistent datasets.
