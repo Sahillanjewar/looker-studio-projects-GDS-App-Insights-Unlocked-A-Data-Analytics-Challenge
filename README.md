@@ -2,6 +2,7 @@
 
 This project analyzes Google Play Store app data to uncover patterns and trends that influence app success, user engagement, ratings, and installs.
 The objective is to derive data-driven insights that help improve app development strategies and marketing decisions.
+
 Dataset Source
 
 Google Play Store Apps Dataset – Kaggle
