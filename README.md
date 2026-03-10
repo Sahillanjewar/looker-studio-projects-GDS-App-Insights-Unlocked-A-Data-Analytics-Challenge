@@ -1,168 +1,137 @@
-# looker-studio-projects-GDS-App-Insights-Unlocked-A-Data-Analytics-Challenge
-This project analyzes Google Play Store app data to uncover patterns and trends that influence app success. The objective is to identify factors contributing to high ratings, installs, and user engagement.
-Dataset Source:
-Kaggle – Google Play Store Apps Dataset
+## Looker Studio Project – App Insights Unlocked (Google Play Store Analytics)
 
- Problem Objectives
+This project analyzes Google Play Store app data to uncover patterns and trends that influence app success, user engagement, ratings, and installs.
+The objective is to derive data-driven insights that help improve app development strategies and marketing decisions.
+Dataset Source
 
-Identify key factors that contribute to app success
-This involves analyzing ratings, installs, reviews, pricing, and updates to determine what makes an app perform well on the Play Store.
+Google Play Store Apps Dataset – Kaggle
 
-Understand what drives high ratings and installs
-The goal is to discover patterns that influence user satisfaction and download behavior.
+Live Dashboard
 
-Discover the most popular and high-performing categories
-This helps in identifying which app categories attract the highest engagement and installs.
+View the interactive dashboard here:
 
-Analyze the impact of app size and pricing on user behavior
-This examines whether smaller apps or free apps perform better in terms of downloads and ratings.
+🔗 https://lookerstudio.google.com/reporting/d9c019d1-fe3d-4e0c-a645-4418880ef59d/page/pZjpF
 
-Generate insights for data-driven decisions
-The analysis supports strategic planning in development, marketing, and monetization.
+Problem Objectives
 
- Stakeholders
+•	Identify key factors contributing to app success by analyzing ratings, installs, reviews, pricing, and update patterns.
+
+•	Understand what drives higher ratings and downloads.
+
+•	Discover popular and high-performing app categories.
+
+•	Analyze the impact of app size and pricing on user behavior.
+
+•	Generate insights to support data-driven decisions in product development and marketing.
+
+Stakeholders
+
 Internal Stakeholders
 
 App Developers
-Developers can use insights to improve app quality, features, and update frequency.
 
+•	Improve app features, performance, and update frequency.
 Product Managers
-Product managers can prioritize features and categories based on performance trends.
 
+•	Prioritize product features and categories using data insights.
 Marketing Team
-Marketing teams can design targeted campaigns based on user behavior insights.
 
+•	Design targeted campaigns based on user engagement patterns.
 Senior Management
-Leadership can use findings for strategic investments and business expansion decisions.
+
+•	Use insights to guide strategic investments and growth decisions.
 
 External Stakeholders
 
 App Users
-Users benefit from improved app quality and better user experience.
 
+•	Benefit from improved app quality and user experience.
 Advertisers
-Advertisers can target high-performing categories for better ROI.
 
-Business/Tech Partners
-Partners can align collaborations with trending and high-demand app categories.
+•	Target high-performing categories for better ROI.
+Technology & Business Partners
 
- Data Cleaning & Preprocessing
+•	Collaborate in high-demand app segments.
 
-Handled missing values
-Missing ratings and inconsistent entries were cleaned to ensure accurate analysis.
+Data Cleaning & Preprocessing
 
-Converted Installs and Price into numeric format
-Text-based values like “1,000+” were converted into numerical form for proper calculations.
+•	Handled missing values in ratings and inconsistent entries.
 
-Standardized app size into MB
-Different size formats were unified into MB for consistency in analysis.
+•	Converted Installs and Price columns into numeric format.
 
-Removed duplicate records
-Duplicate apps were eliminated to avoid misleading insights.
+•	Standardized App Size values into MB.
 
-Standardized Category and Genre text fields
-Inconsistent naming formats were corrected to maintain uniformity.
+•	Removed duplicate records.
 
-Converted Last Updated into datetime format
-Date values were formatted properly to analyze update trends over time.
+•	Standardized Category and Genre text fields.
 
- Metrics Developed
+•	Converted Last Updated column to datetime format.
 
-Average Rating
-Measures overall user satisfaction across apps.
+Metrics Developed
 
-Total Installs
-Indicates overall popularity and demand for apps.
+•	Average Rating – Measures overall user satisfaction.
 
-Total Reviews
-Reflects user engagement and feedback levels.
+•	Total Installs – Indicates app popularity.
 
-Revenue Potential (Paid Apps × Installs)
-Estimates possible revenue generation from paid apps.
+•	Total Reviews – Reflects user engagement.
 
-Category-wise Performance
-Compares how different categories perform based on installs and ratings.
+•	Revenue Potential (Paid Apps × Installs) – Estimates revenue opportunities.
 
- Basic Analysis
+•	Category-wise Performance – Compares installs and ratings across categories.
 
-Average app rating
-Helps understand the general satisfaction level of apps on the platform.
+Basic Analysis
 
-Free vs Paid distribution
-Shows the market split between monetization models.
+•	Average app rating across the platform
 
-Most common content rating
-Identifies the primary target audience age group.
+•	Free vs Paid app distribution
 
-Top installed apps
-Highlights the most successful apps in terms of downloads.
+•	Most common content rating categories
 
-Category distribution
-Shows how apps are spread across different categories.
+•	Top installed apps
 
- Intermediate Analysis
+•	Category distribution across the Play Store
 
-Correlation between installs and ratings
-Examines whether more popular apps also have higher ratings.
+Intermediate Analysis
 
-Category-wise average rating
-Identifies which categories deliver better user satisfaction.
+•	Correlation between installs and ratings
 
-Price vs rating relationship
-Analyzes whether paid apps receive better ratings than free apps.
+•	Category-wise average rating comparison
 
-App size vs installs
-Determines if smaller apps attract more downloads.
+•	Price vs rating relationship
 
-Update frequency patterns
-Studies how regular updates influence app ratings and installs.
+•	App size vs installs analysis
 
- Advanced Analysis
+•	Update frequency trends
 
-Binned install vs rating analysis
-Groups apps by install ranges to observe rating trends across popularity levels.
+Advanced Analysis
 
-Genre-based performance trends
-Identifies which genres consistently perform well in terms of ratings and installs.
+•	Binned install vs rating analysis
 
-Update trend over time
-Analyzes how frequently apps are updated across different years.
+•	Genre-based performance trends
 
-High-rated apps benchmarking
-Studies top-rated apps to understand best practices.
+•	App update trends over time
 
-User engagement insights
-Evaluates review patterns to understand user behavior.
+•	High-rated app benchmarking
 
-🛠 Tools & Technologies Used
+•	User engagement insights based on reviews
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-Used for data cleaning, analysis, and visualization.
+Tools & Technologies Used
 
-SQL
-Used for structured querying and data manipulation.
+•	Python – Data cleaning and analysis
 
-Looker Studio
-Used to create interactive dashboards for business insights.
+o	Pandas
 
-Jupyter Notebook
-Used to document and execute the analysis step-by-step.
+o	NumPy
 
-GitHub
-Used for version control and project documentation.
+o	Matplotlib
 
- Learning Outcome
+o	Seaborn
 
-Data Cleaning Skills
-Improved ability to handle raw and inconsistent datasets.
+•	SQL – Data querying and transformation
 
-Analytical Thinking
-Developed the skill to connect data patterns with business impact.
+•	Looker Studio – Interactive dashboard creation
 
-Visualization Expertise
-Learned how to present insights clearly through dashboards.
+•	Jupyter Notebook – Analysis documentation
 
-Strategic Recommendation Building
-Gained experience in converting analysis into actionable business decisions
+•	GitHub – Version control and project documentation
 
-project link : https://lookerstudio.google.com/reporting/d9c019d1-fe3d-4e0c-a645-4418880ef59d/page/pZjpF
