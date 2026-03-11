@@ -13,126 +13,69 @@ View the interactive dashboard here:
 
 🔗 https://lookerstudio.google.com/reporting/d9c019d1-fe3d-4e0c-a645-4418880ef59d/page/pZjpF
 
+Problem Statement
+
+Analyze Google Play Store application data to identify key factors that contribute to app success. The analysis focuses on ratings, installs, reviews, pricing, and update patterns to understand what drives higher downloads and better user engagement. The insights help support data-driven decision making for product development, marketing strategies, and app performance optimization.
+
 Problem Objectives
 
-•	Identify key factors contributing to app success by analyzing ratings, installs, reviews, pricing, and update patterns.
+• Identify the key factors contributing to app success by analyzing ratings, installs, reviews, pricing, and update patterns.
+• Understand the elements that drive higher app ratings and downloads across different categories.
+• Discover popular and high-performing app categories in the Google Play ecosystem.
 
-•	Understand what drives higher ratings and downloads.
-
-•	Discover popular and high-performing app categories.
-
-•	Analyze the impact of app size and pricing on user behavior.
-
-•	Generate insights to support data-driven decisions in product development and marketing.
+This analysis also explores the relationship between app size, pricing, and user behavior. The goal is to generate insights that help developers and businesses make data-driven decisions for improving app performance and user engagement.
 
 Stakeholders
-
 Internal Stakeholders
 
 App Developers
+• Improve app performance, features, and user experience based on insights.
+• Optimize update frequency and app functionality.
 
-•	Improve app features, performance, and update frequency.
 Product Managers
+• Prioritize product features and identify high-performing categories.
+• Use data insights to guide product roadmap decisions.
 
-•	Prioritize product features and categories using data insights.
 Marketing Team
+• Design targeted marketing campaigns using user engagement insights.
+• Focus promotions on categories with high growth potential.
 
-•	Design targeted campaigns based on user engagement patterns.
 Senior Management
-
-•	Use insights to guide strategic investments and growth decisions.
+• Use analytical insights to guide strategic investments.
+• Support long-term growth and innovation in the app ecosystem.
 
 External Stakeholders
 
 App Users
+• Benefit from improved app quality and better user experience.
+• Gain access to more reliable and high-performing applications.
 
-•	Benefit from improved app quality and user experience.
 Advertisers
+• Target high-performing app categories for better marketing ROI.
+• Identify apps with strong user engagement.
 
-•	Target high-performing categories for better ROI.
 Technology & Business Partners
-
-•	Collaborate in high-demand app segments.
+• Collaborate with developers in high-demand app segments.
+• Support integration, partnerships, and innovation opportunities.
 
 Data Cleaning & Preprocessing
 
-•	Handled missing values in ratings and inconsistent entries.
+Before analysis, the dataset was cleaned and standardized to ensure data quality and accuracy. Several preprocessing steps were applied to handle inconsistencies and prepare the data for meaningful insights.
 
-•	Converted Installs and Price columns into numeric format.
+• Handled missing values in ratings and corrected inconsistent entries.
+• Converted Installs and Price columns into numeric format for analysis.
+• Standardized App Size values into MB and removed duplicate records.
 
-•	Standardized App Size values into MB.
-
-•	Removed duplicate records.
-
-•	Standardized Category and Genre text fields.
-
-•	Converted Last Updated column to datetime format.
+Additional steps included standardizing text fields for Category and Genre and converting the Last Updated column into datetime format to analyze update trends effectively.
 
 Metrics Developed
 
-•	Average Rating – Measures overall user satisfaction.
+To evaluate app performance, several key metrics were developed. These metrics help measure user satisfaction, engagement, and potential revenue opportunities.
 
-•	Total Installs – Indicates app popularity.
+• Average Rating – Measures overall user satisfaction with an app.
+• Total Installs – Indicates app popularity and reach.
+• Total Reviews – Reflects user engagement and feedback level.
 
-•	Total Reviews – Reflects user engagement.
-
-•	Revenue Potential (Paid Apps × Installs) – Estimates revenue opportunities.
-
-•	Category-wise Performance – Compares installs and ratings across categories.
-
-Basic Analysis
-
-•	Average app rating across the platform
-
-•	Free vs Paid app distribution
-
-•	Most common content rating categories
-
-•	Top installed apps
-
-•	Category distribution across the Play Store
-
-Intermediate Analysis
-
-•	Correlation between installs and ratings
-
-•	Category-wise average rating comparison
-
-•	Price vs rating relationship
-
-•	App size vs installs analysis
-
-•	Update frequency trends
-
-Advanced Analysis
-
-•	Binned install vs rating analysis
-
-•	Genre-based performance trends
-
-•	App update trends over time
-
-•	High-rated app benchmarking
-
-•	User engagement insights based on reviews
-
-Tools & Technologies Used
-
-•	Python – Data cleaning and analysis
-
-o	Pandas
-
-o	NumPy
-
-o	Matplotlib
-
-o	Seaborn
-
-•	SQL – Data querying and transformation
-
-•	Looker Studio – Interactive dashboard creation
-
-•	Jupyter Notebook – Analysis documentation
-
-•	GitHub – Version control and project documentation
+Additional metrics include Revenue Potential (Paid Apps × Installs) and Category-wise Performance, which help compare installs and ratings across different app categories.
+<img width="1810" height="1358" alt="image" src="https://github.com/user-attachments/assets/f0d2056b-c141-4a0e-9857-80900321a461" />
 
