@@ -25,35 +25,6 @@ Problem Objectives
 
 This analysis also explores the relationship between app size, pricing, and user behavior. The goal is to generate insights that help developers and businesses make data-driven decisions for improving app performance and user engagement.
 
-Stakeholders
-Internal Stakeholders
-
-App Developers
-• Improve app performance, features, and user experience based on insights.
-• Optimize update frequency and app functionality.
-
-Product Managers
-• Prioritize product features and identify high-performing categories.
-• Use data insights to guide product roadmap decisions.
-
-Marketing Team
-• Design targeted marketing campaigns using user engagement insights.
-• Focus promotions on categories with high growth potential.
-
-Senior Management
-• Use analytical insights to guide strategic investments.
-• Support long-term growth and innovation in the app ecosystem.
-
-External Stakeholders
-
-App Users
-• Benefit from improved app quality and better user experience.
-• Gain access to more reliable and high-performing applications.
-
-Advertisers
-• Target high-performing app categories for better marketing ROI.
-• Identify apps with strong user engagement.
-
 Technology & Business Partners
 • Collaborate with developers in high-demand app segments.
 • Support integration, partnerships, and innovation opportunities.
@@ -77,5 +48,6 @@ To evaluate app performance, several key metrics were developed. These metrics h
 • Total Reviews – Reflects user engagement and feedback level.
 
 Additional metrics include Revenue Potential (Paid Apps × Installs) and Category-wise Performance, which help compare installs and ratings across different app categories.
+
 <img width="1810" height="1358" alt="image" src="https://github.com/user-attachments/assets/f0d2056b-c141-4a0e-9857-80900321a461" />
 
