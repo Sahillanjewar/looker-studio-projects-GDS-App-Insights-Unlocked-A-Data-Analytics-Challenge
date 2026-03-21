@@ -49,5 +49,6 @@ To evaluate app performance, several key metrics were developed. These metrics h
 
 Additional metrics include Revenue Potential (Paid Apps × Installs) and Category-wise Performance, which help compare installs and ratings across different app categories.
 
-<img width="1810" height="1358" alt="image" src="https://github.com/user-attachments/assets/f0d2056b-c141-4a0e-9857-80900321a461" />
+# Dashboard 
 
+<img width="1802" height="1354" alt="image" src="https://github.com/user-attachments/assets/0950d29b-4f1f-4284-b9ee-acb04fa1b4bc" />
